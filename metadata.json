@@ -1,0 +1,8 @@
+{
+  "name": "Remix GRAM Sathi 360°",
+  "description": "Smart Rural Development, Social Innovation \u0026 Digital Empowerment Platform for Indian villages. Proposed under MY Bharat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

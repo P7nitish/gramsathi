@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GRAM Sathi 360° — Smart Rural Development & Civic Technology Platform</title>
+    <meta name="description" content="Smart Rural Development, Social Innovation & Digital Empowerment Platform for Indian villages. Proposed under MY Bharat." />
+    <meta property="og:title" content="GRAM Sathi 360° — Smart Rural Development & Civic Technology Platform" />
+    <meta property="og:description" content="Smart Rural Development, Social Innovation & Digital Empowerment Platform for Indian villages. Proposed under MY Bharat." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_IN" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#1B5E3A" />
+    
+    <!-- Google Fonts: Manrope (headings) + Inter (body) + Noto Sans Devanagari (Hindi) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Leaflet CSS & JS for OpenStreetMap civic mapping -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    
+    <!-- JSON-LD Structured Data Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "GovernmentService",
+      "name": "GRAM Sathi 360°",
+      "alternateName": "ग्राम साथी ३६०°",
+      "serviceType": "Civic Technology and Rural Development Demonstration Initiative",
+      "description": "Smart Rural Development, Social Innovation & Digital Empowerment Platform proposed for consideration under MY Bharat initiative.",
+      "provider": {
+        "@type": "Organization",
+        "name": "GRAM Sathi 360° Civic Initiative",
+        "url": "https://gramsathi360.example.org"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    }
+    </script>
+  </head>
+  <body class="bg-[#F7F9FC] text-[#0B1B2B] antialiased min-h-screen font-sans selection:bg-[#1B5E3A]/20 selection:text-[#1B5E3A]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
